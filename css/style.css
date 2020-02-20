@@ -15,6 +15,7 @@ p {
     border: 4px solid #DC4A2C;
     border-radius: 4px;
     padding: 10px 25px;
+    margin: 0 auto;
 }
 
 .btn:hover {
@@ -70,7 +71,6 @@ header div img {
 
 .menu {
     text-align: right;
-    /* position: fixed; */
     z-index: 5;
 }
 
@@ -252,4 +252,68 @@ header div img {
 .hist p.call {
     font-size: 0.875em;
     padding: 29px 0;
+}
+
+/* Footer */
+
+footer {
+    color: #fff;
+    background: #70A165;
+    margin-top: 74px;
+}
+
+footer .footer-bg p {
+    font-size: 0.875em;
+    padding: 20px 0 50px 0;
+    width: 390px;
+}
+
+footer .footer-bg h2 {
+    color: #0A160E;
+    font-size: 1.125em;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+footer .footer-bg h2:after {
+    content: '';
+    display: block;
+    width: 45px;
+    height: 2px;
+    background: #0A160E;
+    margin: 2px 0;
+}
+
+footer .footer-bg ul {
+    padding-top: 17px;
+}
+
+footer .footer-bg ul li {
+    font-size: 0.875em;
+    font-family: 'Sitka Banner', Georgia, 'Times New Roman', serif;
+    line-height: 25px;
+}
+
+footer .footer-bg div.redes ul li {
+    display: inline;
+    margin: 5px 0 0 15px;
+}
+
+footer .footer-bg div.redes ul li:hover {
+    filter: brightness(95);
+    transition: filter 0.65s;
+}
+
+footer .footer-bg div.redes ul li:first-child {
+    margin: 5px 0 0 0;
+}
+
+footer .copy-bg {
+    background: #0A160E;
+}
+
+footer .copy p {
+    font-family:  'Sitka Banner', Georgia, 'Times New Roman', serif;
+    font-size: 0.875em;
+    padding: 16px 0;
 }
