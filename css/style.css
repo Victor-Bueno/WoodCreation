@@ -24,6 +24,33 @@ p {
     transition: border 0.5s;
 }
 
+.btn-verde:hover {
+    color: #0A160E;
+    border-color: #0A160E;
+    transition: color 0.5s;
+    transition: border 0.5s;
+}
+
+.subtitulo {
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.subtitulo:after, .subtitulo:before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #70A165;
+    transform: rotate(45deg);
+    margin: 0 0 5px 30px;
+}
+
+.subtitulo:before {
+    margin: 0 30px 5px 0;
+}
+
 /* Header */
 
 header {
@@ -58,12 +85,32 @@ header div img {
     margin-left: 20px;
 }
 
+.menu-nav ul li:last-child:after, .menu-nav ul li:last-child:before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    transform: rotate(45deg);
+    margin: 0 0 2px 15px;
+}
+
+.menu-nav ul li:last-child:before {
+    margin: 0 15px 2px 0;
+}
+
+.menu-nav ul li:last-child:hover::before, .menu-nav ul li:last-child:hover::after {
+    background: #0A160E;
+    transition: background 0.75s;
+}
+
 .menu-nav ul li a{
     color: #fff;
-    font-size: 1.125em;
+    font-size: 0.875em;
     font-weight: bold;
     letter-spacing: .1em;
     text-transform: uppercase;
+    padding: 10px;
 }
 
 .menu-nav ul li a:hover {
@@ -100,3 +147,54 @@ header div img {
     padding-bottom: 35px;
 }
 
+/* Estilos */
+
+.estilos {
+    text-align: center;
+}
+
+.estilos .subtitulo {
+    margin: 60px 0 40px 0;
+}
+
+.estilos div.container {
+    background: #0A160E;
+    color: #fff;
+    padding: 30px 50px;
+}
+
+.estilos .estilo-item {
+    width: 260px;
+    height: 300px;
+}
+
+.estilos .estilo-txt {
+    width: 260px;
+    height: 100px;
+    background: #70A165;
+}
+
+.estilos .estilo-txt h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.estilos .estilo-txt h2:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #DC4A2C;
+    margin: 3px auto;
+}
+
+.estilos .estilo-txt p {
+    margin: 4px 0 0 5px;
+}
+
+.estilos .call {
+    font-size: 0.875em;
+    margin: 40px 0 29px 0;
+}
