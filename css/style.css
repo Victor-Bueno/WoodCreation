@@ -214,5 +214,42 @@ header div img {
 }
 
 .produtos-itens .call{
+    font-size: 0.875em;
     padding: 40px 0 29px 0;
+}
+
+/* História */
+
+.hist {
+    text-align: center;
+}
+
+.hist h1.subtitulo {
+    padding: 60px 0 40px 0;
+}
+
+.hist .hist-txt {
+    text-align: left;
+    font-size: 0.875em;
+}
+
+.hist .hist-txt p {
+    padding: 10px 0;
+}
+
+.hist .hist-txt p:nth-of-type(1) {
+    padding-top: 55px;
+}
+
+.hist .hist-img {
+    background: #0A160E;
+    padding: 20px 40px;
+    height: 340px;
+    margin-bottom: 40px;
+}
+
+
+.hist p.call {
+    font-size: 0.875em;
+    padding: 29px 0;
 }
