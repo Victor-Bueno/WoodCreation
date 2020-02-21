@@ -1,0 +1,32 @@
+/* Intro */
+
+.intro-produtos {
+    margin-top: 96px;
+    background: url(../img/bg-prod.jpg) no-repeat center;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.intro-produtos div h1 {
+    font-size: 4em;
+    padding: 40px 0 5px 0;
+    font-weight: bold;
+}
+
+.intro-produtos div p {
+    margin: 0 auto;
+    max-width: 380px;
+    font-size: 1.125em;
+    font-style: italic;
+}
+
+.intro-produtos div p:after, .intro-produtos div p:before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: #fff;
+    margin: 15px auto;
+}
