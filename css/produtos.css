@@ -30,3 +30,50 @@
     background: #fff;
     margin: 15px auto;
 }
+
+/* Estilos */
+
+.prod-estilos h1{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.prod-estilos div div.estilo {
+    background: #0A160E;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.prod-estilos div div.estilo img {
+    padding: 30px 40px 30px 60px;
+    float: left;
+}
+
+.prod-estilos div div.estilo h2 {
+    font-size: 1.125em;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.prod-estilos div div.estilo h2:after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #DC4A2C;
+    margin: 3px 0 10px 0;
+}
+
+.prod-estilos div div.estilo p {
+    font-size: 0.875em;
+    max-width: 260px;
+}
+
+.prod-estilos div div.estilo ul li {
+    font-size: 0.875em;
+    padding: 7px;
+}
+
+.prod-estilos div div.estilo ul li:nth-child(odd) {
+    background: #70A165;
+}
