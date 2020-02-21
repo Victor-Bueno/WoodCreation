@@ -1,3 +1,5 @@
+/* Intro */
+
 .intro-sobre {
     margin-top: 96px;
     background: url(../img/bg-hist.jpg) no-repeat center;
@@ -27,4 +29,47 @@
     height: 5px;
     background: #fff;
     margin: 15px auto;
+}
+
+/* Missão, Visão e Valores */
+
+.nos .missao p {
+    padding-top: 17px;
+    max-width: 460px;
+}
+
+.nos .missao p:nth-of-type(1) {
+    padding-top: 30px;
+}
+
+.nos .missao h1, .nos .valores h2{ 
+    padding-top: 60px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nos .missao h1:after, .nos .valores h2:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: #DC4A2C;
+    margin: 3px 0;
+}
+
+.nos .valores h2:after {
+    width: 70px;
+}
+
+.nos .valores ul li {
+    padding: 13px 0;
+    font-size: 0.875em;
+}
+
+.nos .valores ul li:nth-of-type(1) {
+    padding-top: 30px;
+}
+
+.nos img {
+    padding: 40px 0 60px 0;
 }
