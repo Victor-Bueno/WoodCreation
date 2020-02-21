@@ -52,6 +52,11 @@ p {
     margin: 0 30px 5px 0;
 }
 
+.menu-nav .menu-ativo {
+    color: #0A160E;
+    text-decoration: underline;
+}
+
 /* Header */
 
 header {

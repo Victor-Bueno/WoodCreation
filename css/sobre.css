@@ -1,0 +1,30 @@
+.intro-sobre {
+    margin-top: 96px;
+    background: url(../img/bg-hist.jpg) no-repeat center;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.intro-sobre div h1 {
+    font-size: 4em;
+    padding: 40px 0 5px 0;
+    font-weight: bold;
+}
+
+.intro-sobre div p {
+    margin: 0 auto;
+    max-width: 380px;
+    font-size: 1.125em;
+    font-style: italic;
+}
+
+.intro-sobre div p:after, .intro-sobre div p:before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: #fff;
+    margin: 15px auto;
+}
