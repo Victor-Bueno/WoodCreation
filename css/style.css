@@ -57,6 +57,10 @@ p {
     text-decoration: underline;
 }
 
+.menu-nav ul.orcamento li:last-child:after, .menu-nav ul.orcamento li:last-child:before {
+    background: #0A160E;
+}
+
 /* Header */
 
 header {

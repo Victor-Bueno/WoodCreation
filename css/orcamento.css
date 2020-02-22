@@ -1,0 +1,49 @@
+/* Intro */
+
+.intro-orcamento {
+    margin-top: 96px;
+    background: url(../img/bg-contato.jpg) no-repeat center;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.intro-orcamento div h1 {
+    font-size: 4em;
+    padding: 40px 0 5px 0;
+    font-weight: bold;
+}
+
+.intro-orcamento div p {
+    margin: 0 auto;
+    max-width: 380px;
+    font-size: 1.125em;
+    font-style: italic;
+}
+
+.intro-orcamento div p:after, .intro-orcamento div p:before {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 5px;
+    background: #fff;
+    margin: 15px auto;
+}
+
+/* Form */
+
+.orcamento h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-top: 60px;
+}
+
+.orcamento h1:after {
+    content: '';
+    display: block;
+    width: 170px;
+    height: 3px;
+    background: #DC4A2C;
+    margin: 2px 0;
+}
