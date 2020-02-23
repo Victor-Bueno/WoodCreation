@@ -1,0 +1,14 @@
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* Tablets */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+}
+
+/* Smartphones */
+@media only screen and (max-width: 787px) {
+
+}

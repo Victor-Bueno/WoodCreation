@@ -219,6 +219,10 @@ header div img {
     padding-bottom: 54px;
 }
 
+.produtos img {
+    display: inline-block;
+}
+
 .produtos .subtitulo {
     padding: 40px;
 }
