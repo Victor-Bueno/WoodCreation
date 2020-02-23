@@ -16,6 +16,7 @@ p {
     border-radius: 4px;
     padding: 10px 25px;
     margin: 0 auto;
+    background: transparent;
 }
 
 .btn:hover {
