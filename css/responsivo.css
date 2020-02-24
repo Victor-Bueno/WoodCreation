@@ -5,6 +5,10 @@ img {
 
 /* Tablets */
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+    .intro-bg {
+        margin-top: 94px;
+    }
+
     /* Home - Estilos */
     .estilos div.container {
         padding: 30px;
@@ -28,6 +32,12 @@ img {
     .produtos img {
         display: block;
         margin: 20px auto;
+    }
+
+    /* Home - História */
+    .hist div.hist-img img {
+        position: relative;
+        top: 37px;
     }
 
     /* Footer */
