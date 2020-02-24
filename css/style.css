@@ -322,6 +322,10 @@ footer .footer-bg div.redes ul li:first-child {
     margin: 5px 0 0 0;
 }
 
+footer .footer-bg div.redes ul li a img {
+    display: inline-block;
+}
+
 footer .copy-bg {
     background: #0A160E;
 }

@@ -5,7 +5,44 @@ img {
 
 /* Tablets */
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+    /* Home - Estilos */
+    .estilos div.container {
+        padding: 30px;
+    }
 
+    .estilos .estilo-item, .estilos .estilo-txt {
+        width: 210px;
+    }
+
+    .estilos .estilo-txt {
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .estilos .estilo-txt p {
+        margin: 0;
+        padding: 3px 7px;
+    }
+
+    /* Home - Produtos */
+    .produtos img {
+        display: block;
+        margin: 20px auto;
+    }
+
+    /* Footer */
+    footer .footer-bg p {
+        width: 350px;
+    }
+
+    footer .footer-bg div.redes ul li {
+        margin: 5px;
+    }
+
+    footer .footer-bg div.redes ul li a img {
+        width: 45px;
+        height: 45px;
+    }
 }
 
 /* Smartphones */
