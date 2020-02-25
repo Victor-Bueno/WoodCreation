@@ -14,6 +14,10 @@ img {
         padding: 30px;
     }
 
+    .estilos .estilo-item {
+        margin: 0 13px;
+    }
+
     .estilos .estilo-item, .estilos .estilo-txt {
         width: 210px;
     }
@@ -52,6 +56,28 @@ img {
     footer .footer-bg div.redes ul li a img {
         width: 45px;
         height: 45px;
+    }
+
+    /* Sobre */
+    .intro-sobre {
+        margin-top: 94px;
+    }
+
+    /* Produtos */
+    .intro-produtos {
+        margin-top: 94px;
+    }
+
+    .prod-estilos div div.estilo img {
+        padding: 30px 10px 30px 25px;
+    }
+
+    .prod-estilos div div.estilo h2:after {
+        margin: 3px 0 5px 0;
+    }
+    
+    .prod-estilos div div.estilo p {
+        max-width: 275px;
     }
 }
 
