@@ -111,6 +111,12 @@ img {
 
 /* Smartphones */
 @media only screen and (max-width: 787px) {
+    /* Geral */
+    div.menu nav.menu-nav ul li a.menu-ativo {
+        border-color: #0A160E;
+        text-decoration: none;
+    }
+
     /* Home - Header */
     header {
         position: relative;
@@ -198,5 +204,80 @@ img {
     footer .footer-bg p {
         padding: 20px 0 0 0;
         width: 350px;
+    }
+
+    /* Sobre */
+    .intro-sobre {
+        margin-top: 0;
+        height: 350px;
+        padding-bottom: 45px;
+    }
+
+    /* Produtos - Intro */
+    .intro-produtos {
+        margin-top: 0;
+        height: 350px;
+        padding-bottom: 45px;
+    }
+
+    .intro-produtos div h1 {
+        padding: 65px 0 5px 0;
+    }
+
+    /* Produtos - Estilos */
+    .prod-estilos div div.estilo img {
+        padding: 30px;
+    }
+
+    .prod-estilos div div.estilo h2, .prod-estilos div div.estilo p {
+        padding-left: 30px;
+    }
+
+    .prod-estilos div div.estilo ul li {
+        width: 240px;
+        margin-left: 30px;
+    }
+
+    .prod-estilos div div.estilo {
+        padding-bottom: 20px;
+    }
+
+    /* Orçamento - Intro */
+    .intro-orcamento {
+        margin-top: 0;
+        height: 350px;
+        padding-bottom: 45px;
+    }
+
+    .intro-orcamento div h1 {
+        padding: 75px 0 5px 0;
+    }
+
+    /* Orçamento - Form */
+    .orcamento h1 {
+        font-size: 1.275em;
+    }
+
+    .orcamento h1:after {
+        width: 150px;
+        margin: 2px 0 30px 0;
+    }
+
+    .orcamento form input, .orcamento form textarea {
+        width: 300px;
+    }
+
+    .orcamento form .btn {
+        margin: 4px 0 40px 0;
+    }
+
+    .orcamento div.orcamento-info {
+        margin: 0;
+    }
+
+    .orcamento div.orcamento-info ul.redes li a img {
+        display: inline-block;
+        width: 55px;
+        height: 55px;
     }
 }
