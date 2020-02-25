@@ -79,6 +79,34 @@ img {
     .prod-estilos div div.estilo p {
         max-width: 275px;
     }
+
+    /* Orçamento */
+    .intro-orcamento {
+        margin-top: 94px;
+    }
+
+    .orcamento form input, .orcamento form textarea {
+        padding: 5px;
+        margin: 3px 0 10px 0;
+        width: 295px;
+    }
+
+    .orcamento div.orcamento-info {
+        padding: 35px 40px;
+        margin: 0 0 0 10px;
+    }
+
+    .orcamento div.orcamento-info ul.redes li {
+        margin: 5px;
+    }
+
+    .orcamento div.orcamento-info ul.redes li a img {
+        display: inline-block;
+        width: 55px;
+        height: 55px;
+    }
+
+
 }
 
 /* Smartphones */
