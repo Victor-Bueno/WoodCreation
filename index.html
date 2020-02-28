@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsivo.css">
     <title>WoodCreation</title>
+    <script>
+        document.documentElement.classList.add('js');
+    </script>
 </head>
 <body>
     <header>
@@ -26,15 +29,15 @@
 
     <section class='intro-bg'>
         <div class='intro container'>
-            <h1>Móveis Feitos a Mão</h1>
-            <h3>Utilizando Madeira Reflorestada</h3>
-            <a href="orcamento.html" class='btn'>Contato</a>
+            <h1 data-anime='400' class='fadeInDown'>Móveis Feitos a Mão</h1>
+            <h3 data-anime='800' class='fadeInDown'>Utilizando Madeira Reflorestada</h3>
+            <a href="orcamento.html" data-anime='1200' class='btn'>Contato</a>
         </div>
     </section>
 
     <section class='estilos'>
-        <h1 class='subtitulo'>Estilos</h1>
-        <div class='container'>
+        <h1 data-anime='1500' class='subtitulo fadeInDown'>Estilos</h1>
+        <div data-anime='1600' class='container fadeInDown'>
             <div class="estilo-item grid-1-3">
                 <img src="img/rustico.jpg" alt="Rústico">
                 <div class='estilo-txt'>
@@ -145,5 +148,9 @@
             </div>
         </div>
     </footer>
+
+    <script src='./js/simple-anime.js'></script>
+    <script src='./js/simple-slide.js'></script>
+    <script src='./js/script.js'></script>
 </body>
 </html>

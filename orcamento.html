@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/orcamento.css">
     <link rel="stylesheet" href="css/responsivo.css">
     <title>WoodCreation - Contato</title>
+    <script>
+        document.documentElement.classList.add('js');
+    </script>
 </head>
 <body>
     <header>
@@ -28,16 +31,16 @@
     <section class='intro-orcamento'>
         <div class='container'>
             <div class='grid-16'>
-                <h1>Contato</h1>
-                <p>"Pode contar para a gente, como podemos te ajudar hoje? Fazemos 
+                <h1 data-anime='400' class='fadeInDown'>Contato</h1>
+                <p data-anime='600' class='fadeInDown'>"Pode contar para a gente, como podemos te ajudar hoje? Fazemos 
                     tudo com carinho a você e ao meio ambiente!"</p>
             </div>
         </div>
     </section>
 
     <section class='orcamento container'>
-        <h1>Entre em contato com a gente:</h1>
-        <form action="" class='grid-7'>
+        <h1 data-anime='800' class='fadeInDown'>Entre em contato com a gente:</h1>
+        <form data-anime='1000' action="" class='grid-7 fadeInDown'>
             <label for="nome">Nome:</label>
             <input type="text" id='nome'>
             <label for="email">E-mail:</label>
@@ -48,7 +51,7 @@
             <textarea id="mensagem"></textarea>
             <button type="submit" class='btn btn-verde'>Enviar</button>
         </form>
-        <div class='orcamento-info grid-9'>
+        <div data-anime='1000' class='orcamento-info grid-9 fadeInDown'>
             <p>
                 Envie sua ideia, dúvida ou pedido. Estamos aqui para ajudar!<br>Ao solicitar um orçamento, envie:
             </p>
@@ -108,5 +111,8 @@
             </div>
         </div>
     </footer>
+
+    <script src='./js/simple-anime.js'></script>
+    <script src='./js/script.js'></script>
 </body>
 </html>

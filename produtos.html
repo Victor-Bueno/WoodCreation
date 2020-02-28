@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/produtos.css">
     <link rel="stylesheet" href="css/responsivo.css">
     <title>WoodCreation - Produtos</title>
+    <script>
+        document.documentElement.classList.add('js');
+    </script>
 </head>
 <body>
     <header>
@@ -28,16 +31,16 @@
     <section class='intro-produtos'>
         <div class='container'>
             <div class='grid-16'>
-                <h1>Produtos</h1>
-                <p>"Foco aos detalhes quando criamos, pois fazemos 
+                <h1 data-anime='400' class='fadeInDown'>Produtos</h1>
+                <p data-anime='600' class='fadeInDown'>"Foco aos detalhes quando criamos, pois fazemos 
                     tudo com carinho a você e ao meio ambiente!"</p>
             </div>
         </div>
     </section>
 
     <section class='prod-estilos'>
-        <h1 class='subtitulo'>Estilos</h1>
-        <div class='container'>
+        <h1 data-anime='800' class='subtitulo fadeInDown'>Estilos</h1>
+        <div data-anime='1000' class='container fadeInDown'>
             <div class="estilo rust grid-16">
                 <img src="img/rustico.jpg" alt="Rústico">
                 <div class='estilo-txt grid-5'>
@@ -126,11 +129,13 @@
 
     <section class='produtos'>
         <h1 class='subtitulo'>Produtos</h1>
-        <div class='produtos-itens container'>
-            <img src="img/prod1.jpg" alt="Produto 1">
-            <img src="img/prod2.jpg" alt="Produto 2">
-            <img src="img/prod3.jpg" alt="Produto 3">
-            <img src="img/prod4.jpg" alt="Produto 4">
+        <div class='produtos-itens container' data-slide="portfolio">
+            <ul>
+                <li><img src="img/prod1.jpg" alt="Produto 1"></li>
+                <li><img src="img/prod2.jpg" alt="Produto 2"></li>
+                <li><img src="img/prod3.jpg" alt="Produto 3"></li>
+                <li><img src="img/prod4.jpg" alt="Produto 4"></li>
+            </ul>
         </div>
     </section>
 
@@ -168,5 +173,9 @@
             </div>
         </div>
     </footer>
+
+    <script src='./js/simple-anime.js'></script>
+    <script src='./js/simple-slide.js'></script>
+    <script src='./js/script.js'></script>
 </body>
 </html>

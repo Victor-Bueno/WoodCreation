@@ -335,3 +335,20 @@ footer .copy p {
     font-size: 0.875em;
     padding: 16px 0;
 }
+
+/* Animações */
+
+.js [data-anime] {
+    opacity: 0;
+    transform: translate3d(0, -20px, 0);
+}
+
+.js .fadeInDown {
+    transform: translate3d(0,-20px,0);
+}
+
+.js .anime {
+    opacity: 1;
+    transform: none;
+    transition: opacity 800ms, transform 850ms;
+}
